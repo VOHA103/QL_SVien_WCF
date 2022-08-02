@@ -1,0 +1,12 @@
+D:\TTS_2022\DTO\Wcf_SV\bin\Wcf_SV.dll.config
+D:\TTS_2022\DTO\Wcf_SV\bin\Wcf_SV.dll
+D:\TTS_2022\DTO\Wcf_SV\bin\Wcf_SV.pdb
+D:\TTS_2022\DTO\Wcf_SV\bin\DAL.dll
+D:\TTS_2022\DTO\Wcf_SV\bin\DTO.dll
+D:\TTS_2022\DTO\Wcf_SV\bin\DAL.pdb
+D:\TTS_2022\DTO\Wcf_SV\bin\DTO.pdb
+D:\TTS_2022\DTO\Wcf_SV\obj\Debug\Wcf_SV.csprojAssemblyReference.cache
+D:\TTS_2022\DTO\Wcf_SV\obj\Debug\Wcf_SV.csproj.CoreCompileInputs.cache
+D:\TTS_2022\DTO\Wcf_SV\obj\Debug\Wcf_SV.csproj.CopyComplete
+D:\TTS_2022\DTO\Wcf_SV\obj\Debug\Wcf_SV.dll
+D:\TTS_2022\DTO\Wcf_SV\obj\Debug\Wcf_SV.pdb

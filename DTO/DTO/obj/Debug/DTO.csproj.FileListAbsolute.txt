@@ -1,0 +1,5 @@
+D:\TTS_2022\DTO\DTO\bin\Debug\DTO.dll
+D:\TTS_2022\DTO\DTO\bin\Debug\DTO.pdb
+D:\TTS_2022\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\TTS_2022\DTO\DTO\obj\Debug\DTO.dll
+D:\TTS_2022\DTO\DTO\obj\Debug\DTO.pdb

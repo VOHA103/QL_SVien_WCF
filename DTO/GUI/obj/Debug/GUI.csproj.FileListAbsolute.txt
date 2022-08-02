@@ -1,0 +1,17 @@
+D:\TTS_2022\DTO\GUI\bin\Debug\GUI.pdb
+D:\TTS_2022\DTO\GUI\bin\Debug\DAL.dll
+D:\TTS_2022\DTO\GUI\bin\Debug\Wcf_SV.dll
+D:\TTS_2022\DTO\GUI\bin\Debug\DTO.dll
+D:\TTS_2022\DTO\GUI\bin\Debug\DAL.pdb
+D:\TTS_2022\DTO\GUI\bin\Debug\Wcf_SV.pdb
+D:\TTS_2022\DTO\GUI\bin\Debug\Wcf_SV.dll.config
+D:\TTS_2022\DTO\GUI\bin\Debug\DTO.pdb
+D:\TTS_2022\DTO\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\TTS_2022\DTO\GUI\obj\Debug\GUI.fr_QLSV.resources
+D:\TTS_2022\DTO\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\TTS_2022\DTO\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\TTS_2022\DTO\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\TTS_2022\DTO\GUI\obj\Debug\GUI.pdb
+D:\TTS_2022\DTO\GUI\bin\Debug\GUI.exe.config
+D:\TTS_2022\DTO\GUI\bin\Debug\GUI.exe
+D:\TTS_2022\DTO\GUI\obj\Debug\GUI.exe

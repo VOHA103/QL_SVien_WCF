@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\localhost</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DAL.dll">
+      <publishTime>08/02/2022 15:13:35</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>08/02/2022 15:13:35</publishTime>
+    </File>
+    <File Include="bin/DTO.dll">
+      <publishTime>08/02/2022 15:13:35</publishTime>
+    </File>
+    <File Include="bin/DTO.pdb">
+      <publishTime>08/02/2022 15:13:35</publishTime>
+    </File>
+    <File Include="bin/Wcf_SV.dll">
+      <publishTime>08/02/2022 15:13:35</publishTime>
+    </File>
+    <File Include="bin/Wcf_SV.pdb">
+      <publishTime>08/02/2022 15:13:35</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>08/01/2022 15:07:47</publishTime>
+    </File>
+    <File Include="WCF_SV.svc">
+      <publishTime>08/02/2022 10:28:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/02/2022 15:13:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

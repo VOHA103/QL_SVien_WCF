@@ -1,0 +1,6 @@
+D:\TTS_2022\DTO\DTO\bin\Release\DTO.dll
+D:\TTS_2022\DTO\DTO\bin\Release\DTO.pdb
+D:\TTS_2022\DTO\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+D:\TTS_2022\DTO\DTO\obj\Release\DTO.dll
+D:\TTS_2022\DTO\DTO\obj\Release\DTO.pdb
+D:\TTS_2022\DTO\DTO\obj\Release\DTO.csprojAssemblyReference.cache

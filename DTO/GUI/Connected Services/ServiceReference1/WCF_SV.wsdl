@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WCF_SV" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/Wcf_SV/WCF_SV.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/Wcf_SV/WCF_SV.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/Wcf_SV/WCF_SV.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/DTO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWCF_SV_getAllSV_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllSV" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SV_getAllSV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllSVResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SV_themSV_InputMessage">
+    <wsdl:part name="parameters" element="tns:themSV" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SV_themSV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:themSVResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SV_suaSV_InputMessage">
+    <wsdl:part name="parameters" element="tns:suaSV" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SV_suaSV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:suaSVResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SV_xoaSV_InputMessage">
+    <wsdl:part name="parameters" element="tns:xoaSV" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SV_xoaSV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:xoaSVResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWCF_SV">
+    <wsdl:operation name="getAllSV">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF_SV/getAllSV" message="tns:IWCF_SV_getAllSV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF_SV/getAllSVResponse" message="tns:IWCF_SV_getAllSV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="themSV">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF_SV/themSV" message="tns:IWCF_SV_themSV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF_SV/themSVResponse" message="tns:IWCF_SV_themSV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="suaSV">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF_SV/suaSV" message="tns:IWCF_SV_suaSV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF_SV/suaSVResponse" message="tns:IWCF_SV_suaSV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="xoaSV">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF_SV/xoaSV" message="tns:IWCF_SV_xoaSV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF_SV/xoaSVResponse" message="tns:IWCF_SV_xoaSV_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWCF_SV" type="tns:IWCF_SV">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAllSV">
+      <soap:operation soapAction="http://tempuri.org/IWCF_SV/getAllSV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="themSV">
+      <soap:operation soapAction="http://tempuri.org/IWCF_SV/themSV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="suaSV">
+      <soap:operation soapAction="http://tempuri.org/IWCF_SV/suaSV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoaSV">
+      <soap:operation soapAction="http://tempuri.org/IWCF_SV/xoaSV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WCF_SV">
+    <wsdl:port name="BasicHttpBinding_IWCF_SV" binding="tns:BasicHttpBinding_IWCF_SV">
+      <soap:address location="http://localhost/Wcf_SV/WCF_SV.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

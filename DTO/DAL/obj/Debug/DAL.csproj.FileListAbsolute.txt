@@ -1,0 +1,9 @@
+D:\TTS_2022\DTO\DAL\bin\Debug\DAL.dll
+D:\TTS_2022\DTO\DAL\bin\Debug\DAL.pdb
+D:\TTS_2022\DTO\DAL\bin\Debug\DTO.dll
+D:\TTS_2022\DTO\DAL\bin\Debug\DTO.pdb
+D:\TTS_2022\DTO\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\TTS_2022\DTO\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\TTS_2022\DTO\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\TTS_2022\DTO\DAL\obj\Debug\DAL.dll
+D:\TTS_2022\DTO\DAL\obj\Debug\DAL.pdb
