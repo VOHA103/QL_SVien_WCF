@@ -49,7 +49,7 @@ namespace DAL
             try
             {
                 Conn.Open();
-                string sql = string.Format("INSERT INTO SINH_VIEN(TenSV, GioiTinh, NamNhapHoc,MaSV) VALUES ('{0}', '{1}', '{2}','{3}')", sv.TenSV, sv.GioiTinh, sv.NamNhapHoc, sv.MaSV);
+                string sql = string.Format("INSERT INTO SINH_VIEN(TenSV, GioiTinh, NamNhapHoc,MaSV) VALUES ('N{0}', 'N{1}', '{2}','{3}')", sv.TenSV, sv.GioiTinh, sv.NamNhapHoc, sv.MaSV);
 
                 SqlCommand cmd = new SqlCommand(sql, Conn);
 
@@ -59,7 +59,6 @@ namespace DAL
             catch (Exception ex)
             {
                 MessageBox.Show("lỗi hoặc trùng khóa chính", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
 
             }
             return false;
@@ -71,7 +70,7 @@ namespace DAL
             {
                 Conn.Open();
 
-                string sql = string.Format("UPDATE SINH_VIEN SET TenSV='{0}',GioiTinh=N'{1}',NamNhapHoc='{2}' WHERE MaSV = '{3}'", sv.TenSV, sv.GioiTinh, sv.NamNhapHoc, sv.MaSV);
+                string sql = string.Format("UPDATE SINH_VIEN SET TenSV=N'{0}',GioiTinh=N'{1}',NamNhapHoc='{2}' WHERE MaSV = '{3}'", sv.TenSV, sv.GioiTinh, sv.NamNhapHoc, sv.MaSV);
 
                 SqlCommand cmd = new SqlCommand(sql, Conn);
 

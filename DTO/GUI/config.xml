@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Server>
+    <link id="url">http://localhost:63649/WCF_SV.svc/getAllSV_s</link>
+</Server>
+

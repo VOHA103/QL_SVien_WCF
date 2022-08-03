@@ -156,6 +156,7 @@
             this.dataG_sv.Size = new System.Drawing.Size(635, 150);
             this.dataG_sv.TabIndex = 14;
             this.dataG_sv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataG_sv_CellClick);
+            this.dataG_sv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataG_sv_CellContentClick);
             // 
             // label1
             // 

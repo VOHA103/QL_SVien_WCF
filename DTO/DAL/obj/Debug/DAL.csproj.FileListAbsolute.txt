@@ -7,3 +7,16 @@ D:\TTS_2022\DTO\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\TTS_2022\DTO\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\TTS_2022\DTO\DAL\obj\Debug\DAL.dll
 D:\TTS_2022\DTO\DAL\obj\Debug\DAL.pdb
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\DAL.dll
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\DAL.pdb
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\DTO.dll
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\Newtonsoft.Json.dll
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\System.Net.Http.Formatting.dll
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\DTO.pdb
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\Newtonsoft.Json.xml
+D:\QL_SVien_WCF\DTO\DAL\bin\Debug\System.Net.Http.Formatting.xml
+D:\QL_SVien_WCF\DTO\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\QL_SVien_WCF\DTO\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\QL_SVien_WCF\DTO\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\QL_SVien_WCF\DTO\DAL\obj\Debug\DAL.dll
+D:\QL_SVien_WCF\DTO\DAL\obj\Debug\DAL.pdb

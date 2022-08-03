@@ -3,3 +3,14 @@ D:\TTS_2022\DTO\DTO\bin\Debug\DTO.pdb
 D:\TTS_2022\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\TTS_2022\DTO\DTO\obj\Debug\DTO.dll
 D:\TTS_2022\DTO\DTO\obj\Debug\DTO.pdb
+D:\QL_SVien_WCF\DTO\DTO\bin\Debug\DTO.dll
+D:\QL_SVien_WCF\DTO\DTO\bin\Debug\DTO.pdb
+D:\QL_SVien_WCF\DTO\DTO\bin\Debug\Newtonsoft.Json.dll
+D:\QL_SVien_WCF\DTO\DTO\bin\Debug\System.Net.Http.Formatting.dll
+D:\QL_SVien_WCF\DTO\DTO\bin\Debug\Newtonsoft.Json.xml
+D:\QL_SVien_WCF\DTO\DTO\bin\Debug\System.Net.Http.Formatting.xml
+D:\QL_SVien_WCF\DTO\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\QL_SVien_WCF\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\QL_SVien_WCF\DTO\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\QL_SVien_WCF\DTO\DTO\obj\Debug\DTO.dll
+D:\QL_SVien_WCF\DTO\DTO\obj\Debug\DTO.pdb
