@@ -21,7 +21,7 @@ namespace Wcf_SV
         List<SV_DTO> getAllSV();
 
         [OperationContract]
-        [WebInvoke(UriTemplate = "themSV_s", Method = "POST", RequestFormat = WebMessageFormat.Json)]
+        [WebInvoke(UriTemplate = "themSV_s", Method = "POST")]
         bool themSV(SV_DTO sv);
 
         [OperationContract]
@@ -33,17 +33,4 @@ namespace Wcf_SV
         bool xoaSV(string  id);
 
     }
-
-    //[DataContract]
-    //public class SINH_VIEN
-    //{
-    //    [DataMember]
-    //    public string MaSV { get; set; }
-    //    [DataMember]
-    //    public string TenSV { get; set; }
-    //    [DataMember]
-    //    public string GioiTinh { get; set; }
-    //    [DataMember]
-    //    public int NamNhapHoc { get; set; }
-    //}
 }

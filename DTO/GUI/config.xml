@@ -1,5 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Server>
-    <link id="url">http://localhost:63649/WCF_SV.svc/getAllSV_s</link>
-</Server>
+    <!--xmlns:getSV = "http://localhost:63649/WCF_SV.svc/getAllSV_s"
+    xmlns:themSV = "http://localhost:63649/WCF_SV.svc/themSV_s"
+    xmlns:suasv = "http://localhost:63649/WCF_SV.svc/suaSV_s"
+    xmlns:xoasv = "http://localhost:63649/WCF_SV.svc/xoaSV_s"-->
 
+  <data>
+    <link>http://localhost:63649/WCF_SV.svc/getAllSV_s</link>
+  </data>
+  
+  <data> 
+    <link>http://localhost:63649/WCF_SV.svc/themSV_s</link>
+  </data>
+  
+  <data>
+    <link>http://localhost:63649/WCF_SV.svc/suaSV_s</link>
+  </data>
+  
+  <data>
+    <link>http://localhost:63649/WCF_SV.svc/xoaSV_s</link>
+  </data>
+
+</Server>

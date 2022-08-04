@@ -80,7 +80,6 @@ namespace DAL
             }
             catch (Exception e)
             {
-                //MessageBox.Show("lỗi ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 throw;
 
             }
@@ -107,7 +106,6 @@ namespace DAL
             }
             catch (Exception e)
             {
-                // MessageBox.Show("lỗi ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 throw;
 
             }
